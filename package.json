@@ -4,8 +4,11 @@
   "description": "NodeJS playground ",
   "main": "index.js",
   "scripts": {
-    "start": "Node index.js"
+    "start": "Node src/index.ts"
   },
   "author": "shravanth",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }
